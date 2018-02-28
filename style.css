@@ -1,0 +1,280 @@
+*{margin:0;padding:0;}
+
+body{font-family:tahoma;}
+
+header .row{
+	max-width:100%;
+	width:100%;
+	margin:0 auto;
+	background-color: rgba(0,0,0,.75);
+	height:100px;
+	
+	z-index: 2;
+}
+
+.mainHeading{
+	position:absolute;
+	width:1140px;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	color:white;
+}
+
+.main-nav {
+	float:right;
+	list-style-type: none;
+	margin-right:50px;
+}
+
+.main-nav li{
+	display:inline-block;
+	margin:15px 20px;
+}
+
+.logo img {
+	height:100px;
+	float:left;
+}
+
+.main-nav li a{
+	color:white;
+	text-decoration: none;
+	font-size:50px;
+	transition: all .4s;
+}
+
+.main-nav li a:hover{
+	color:rgb(255,165,0);
+	border-bottom: 1px solid rgb(255,165,0);
+	padding:5px 0;
+	transition: all .4s;
+}
+
+.main-nav i{font-size: .9em;}
+
+header{
+	background-image:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url("soccer.jpg");
+	height:100vh;
+	background-attachment:fixed;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.btn{
+	border:1px solid rgb(255,165,0);
+	padding:10px 20px;
+	border-radius: 5px;
+	margin-top:50px;
+	background-color:rgba(0,0,0,0.5);
+	cursor: pointer;
+	color: white;
+	font-size: 25px;
+	 transition: all .4s;
+}
+
+.btn:hover{background-color:rgb(255,165,0); transition: all .4s;}
+.btn:active{border:1px solid rgb(255,165,0);}
+
+.copy{
+	width:70%;
+	margin-left:15%;
+}
+
+h3:after{
+	width:300px;
+	height:2px;
+	background-color: dodgerblue;
+	display:block;
+	content:"";
+	margin:0 auto;
+	margin-top:0px;
+}
+
+.features h3{
+	margin-top:80px;
+	margin-bottom:30px;
+	width:300px;
+	margin-left:40%;
+	font-size: 2em;
+}
+
+#headGal:active{
+	-webkit-animation-duration:2.5s;
+	-webkit-animation-delay:1.5s;
+
+}
+
+.arranging{	text-align: justify;}
+
+.features .fa-camera-retro{
+	color:dodgerblue;
+	font-size: 1em;
+	padding:8px;
+	float:left;
+	border-radius:20%;
+	text-align: left;
+}
+
+.photo-showcase{
+	list-style: none;
+	width:100%;
+}
+
+.photo-showcase li{
+	display: block;
+	width:25%;
+	float:left;
+}
+
+.photo{
+	width:100%
+	margin:0;
+}
+
+.photo img{
+	width:100%;
+	height:auto;
+	transition: all .5s;
+	transform: scale(1.06);
+}
+
+.photo img:before{
+  background: rgba(0,0,0,.9);
+}
+
+.photo img:hover{
+	background: rgba(0,255,255, 0.5);
+	transform: scale(1.11);
+	transition: all .5s;
+}
+
+.about {
+	color:white;
+	margin-top:400px;
+	background-image:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url("KAT.jpg");
+	height:100vh;
+	background-attachment:fixed;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.about h3:after{margin-top:10px;}
+
+.about-form{
+	border:2px white solid;
+	width:45%;
+	height:60%;
+	margin-top:2%;
+	margin-left:28%;
+	background-color:rgba(255,255,255,.7);
+}
+
+.info {width:50%;margin-right:0px; margin-left:10px;float:left; margin-top: 5px;}
+
+.info > p{
+	color:white;
+	width:85%;
+	background-color:rgba(50,50,50,.8);
+	margin:20px 40px;
+	border-radius: 5px;
+	padding-left:8px;
+	padding-bottom: 10px;
+	padding-top:5px;
+}
+
+.about-form i{
+	float:left;
+	margin-left:5px;
+	color:black;
+	font-size:2em;
+}
+
+h4{
+	text-align: center;
+	color:black;
+}
+.container h4:after{
+	border-bottom: 3px black solid;
+	padding-top: 15px;
+	width:200px;
+	height:2px;
+	display:block;
+	content:"";
+	margin-left:12%;	
+}
+
+.about h4:after{
+	border-bottom: 3px black solid;
+	padding-top: 15px;
+	width:28%;
+	height:2px;
+	display:block;
+	content:"";
+	margin-left:36%;
+}
+
+.input-container{width:45%;float:right;}
+
+.input-container{margin-bottom: 0px;}
+
+input[type=text],input[type=email],input[type=tel], select, textarea {
+    width: 95%;
+    padding: 12px;
+    border: 1.5px solid rgba(90,90,90,.8);
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    height:8%;
+}
+
+fieldset:last-of-type{margin-top:20px;}
+
+button {
+    background-color: rgb(255,165,0);
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 10%;
+    cursor: pointer;
+    transition: all .4s;
+}
+
+button:hover{ transform:scale(1.05); transition: all .4s;}
+
+#subject{resize: none;}
+
+.fa-compass {margin-top:30px;}
+.fa-phone-square{margin-top:10px;}
+.fa-clock{margin-top:30px;}
+
+
+footer{
+	width:100%;
+	height:150px;
+	background-color:black;
+	text-align: center;
+}
+
+footer i{margin-top:30px;}
+
+footer > a{
+	font-size: 40px;
+	text-decoration: none;
+}
+footer > a:link, footer > a:visited {color:white;transition:  all .5s;}
+
+footer > a:hover{
+	transform: scale(1.15);
+	transition:  all .5s;
+	text-decoration: none; 
+	color: dodgerblue;
+}
+
+footer > p{
+	color: white;
+	font-size: 13px;
+	margin:0px;
+	}
